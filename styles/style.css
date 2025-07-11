@@ -1,3 +1,12 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
 header{
     background-image: url('../Assets/Hero-bg.png');
     padding: 50px 100px 150px 100px;
@@ -188,7 +197,7 @@ font-size: 18px;
 }
 .contact-btn{
     height: 63px;
-    width: 420px;
+    width: 520px;
 }
 
 /* footer section */
@@ -242,6 +251,7 @@ box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
     font-size: 42px;
     font-weight: 700;
     text-align: center;
+    color: #252432;
 }
 
 .reviewer{
