@@ -24,6 +24,9 @@ nav{
     border: none;
     border-radius: 10px;
 }
+.btn-primary:hover {
+  background-color: #dabe21;
+}
 .nav-title{
     color: #4E47FF;
     font-size: 34px;
@@ -56,7 +59,9 @@ nav{
 
 
 /* Main section */
-
+.bg{
+       background-color: #f6f7fa;
+}
 .action{
     display: flex;
     justify-content: space-between;
@@ -132,7 +137,7 @@ img{
 
 
 main{
-    background-color: rgb(255,255,255,0.1);
+    /* background-color: rgb(255,255,255,0.1); */
 }
 
 /* Contact column */
@@ -140,6 +145,7 @@ main{
 .contact {
   padding: 80px 60px;
   margin: 80px auto;
+    background-color: #f6f7fa;
 }
 
 .contact-container {
@@ -166,12 +172,12 @@ width: 50%;
 }
 footer input[type="text"] , footer input[type="email"],footer textarea{
 /* height: 64px; */
-border-radius: 5px;
+border-radius: 10px;
 background-color: white;
 /* width: 100%; */
 padding: 20px 20px;
 margin-bottom: 10px;
-border: 1px solid rgb(122, 101, 101);
+border: 0.5px solid rgb(231, 213, 213);
 font-size: 18px;
 }
 .label{
@@ -211,4 +217,72 @@ font-size: 18px;
 .footer-para{
     color: #8987A1;
     font-size: 18px;
+}
+
+
+
+/* Challenge (Feedback section) */
+  
+.feedback{
+    background-color: #f6f7fa;
+}
+.feedback-container{
+    display: flex;
+     justify-content: space-around;
+     padding: 20px;
+     /* gap: 24px;  */
+}
+.feedback-box{
+    padding: 30px;
+border-radius: 7px;
+background-color: white;
+box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer-details{
+      display: flex;
+  flex-direction: column;
+  gap: 2px; 
+   
+}
+.reviewer-details .name,
+.reviewer-details .date {
+  margin: 0;
+  font-size: 14px; 
+}
+
+.feedbacks-title{
+    font-size: 26px;
+    font-weight: 600;
+}
+.feedbacks-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+.name{
+    color: #757575;
+}
+.date{
+    color: #B3B3B3;
+}
+
+.feedback-wrapper {
+  display: flex;
+  gap: 1px; /* space between each container */
+}
+
+.feedback-container {
+  flex: 1;
+  /* Optional: Set a fixed width if needed */
+  max-width: 450px;
 }
